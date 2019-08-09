@@ -1,0 +1,158 @@
+
+html{
+	height: 100%
+}
+
+
+body{
+	background: -webkit-linear-gradient(345deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+	font-family: "Segoe UI";
+	height: 100%;
+	width: 100%;
+	background-color: #1fc8db;
+	/*background-image:  linear-gradient(280deg, #9fb8ad 10%, #1fc8db 51%, #2cb5e8 75%);*/
+	color: white;
+	opacity: 0.95;
+}
+
+h1{
+	font-weight: 400;
+	position: relative;
+	text-transform: uppercase;
+	color: white;
+	margin: 0px 15px 3px 0px;
+	text-align: left;
+}
+
+span{
+	display: inline-block;
+}
+
+table{
+	max-width: 400px;
+
+	width:50%;
+	margin: 10% auto;
+	border-spacing: 0px;
+}
+
+th{
+	background-color: #2980b9;
+	margin: 0px 0px;
+	padding-left: 15px;
+	height: 40px;
+
+}
+
+#pluss{
+	border: none;
+	background-color: #2980b9;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 60px;
+	position: absolute;
+}
+
+
+button:focus{
+	outline: none;
+}
+
+.fa-plus:hover{
+	color:rgb(10, 252, 10);
+}
+
+i.fas{
+	color: white;
+}
+
+tr{
+	margin: 20px;
+	background-color: white;
+	color: black;
+	padding: 20px;
+	border-spacing: 0px;
+
+}
+
+
+tr:nth-of-type(2n){
+	background-color: rgb(242, 242, 242);
+}
+
+td{
+	position: relative;
+	font-size: 1.2rem;
+	line-height: 2.5rem;
+padding:0px;
+}
+
+input{
+	width: 100%;
+	border:none;
+ 	background-color: rgb(242, 242, 242);
+	line-height: 1.8rem;
+	font-size: 1.3rem;
+	font-weight: normal;
+	display: none;
+	color: #2980b9;
+	padding-left:15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	box-sizing: border-box;
+
+}
+
+input:focus{
+	outline:none;
+	color: #2980b9;
+
+}
+
+
+.done{
+	text-decoration: line-through;
+	color:dimgray;
+}
+
+
+.trashCan{
+	border:none;
+	background-color: rgb(235, 42, 35);
+	width:40px;
+	height: 100%;
+	top:0;
+	left:0;
+	position: absolute;
+	/*display: none;*/
+
+}
+
+.trashCan:active{
+
+	background-color: rgb(168, 10, 10);
+}
+
+.trashSpan{
+	width:50px;
+	/*display:none ;*/
+}
+
+.fas.fa-trash-alt{
+	background-color: rgb(235, 42, 35);
+
+}
+
+
+
+/*i.fas.fa-trash-alt{*/
+/*	position: absolute;*/
+/*	padding:5px;*/
+/*	margin-right:10px;*/
+/*	left:0;*/
+/*	top:0;*/
+/*	height:100%;*/
+/*}*/
+
+
