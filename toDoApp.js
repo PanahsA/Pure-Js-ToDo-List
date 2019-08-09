@@ -4,7 +4,7 @@ var toDoTd;
 var input = document.querySelector("input");
 var newT = document.querySelector(".new");
 var toDosCounter = 0;
-// var trashCan = document.querySelector(".trashCan");
+var trashCan = document.querySelector(".trashCan");
 var trashSpan = document.querySelector(".trashSpan");
 // var toDoTd = document.querySelector(".toDoTd");
 var pluss = document.querySelector("#pluss");
